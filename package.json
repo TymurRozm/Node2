@@ -1,0 +1,33 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "description": "Lab 2 for node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "npx prettier . --check",
+    "format:fix": "npx prettier . --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TymurRozm/Node2.git"
+  },
+  "author": "TymurRozm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TymurRozm/Node2/issues"
+  },
+  "homepage": "https://github.com/TymurRozm/Node2#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-semistandard": "^16.0.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-sonarjs": "^0.23.0",
+    "prettier": "3.2.4"
+  }
+}
