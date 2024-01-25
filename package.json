@@ -4,6 +4,9 @@
   "description": "Lab 2 for node.js",
   "main": "src/server.js",
   "type": "module",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "start": "node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
